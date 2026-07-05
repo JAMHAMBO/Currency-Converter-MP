@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header */
+
+.title {
+    width: 100%;
+    background-color: #384D48;
+    color: #E2E2E2;
+    text-align: center;
+    padding: 18px;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Main Card */
+
+.container {
+    margin-top: 70px;
+    width: 420px;
+    background-color: #D8D4D5;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Amount */
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #D8D4D5;
+}
+
+.container1 label {
+    background-color: #D8D4D5;
+    color: #384D48;
+    font-weight: bold;
+}
+
+.input {
+    padding: 12px;
+    border: 2px solid #ACAD94;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    background-color: white;
+}
+
+.output {
+    padding: 12px;
+    border: 2px solid #ACAD94;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    background-color: white;
+}
+
+.input:focus {
+    border-color: #384D48;
+}
+
+/* Currency Section */
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D8D4D5;
+}
+
+.container2-1,
+.container2-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #D8D4D5;
+}
+
+.container2 label {
+    background-color: #D8D4D5;
+    color: #384D48;
+    font-weight: bold;
+}
+
+.currency {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border: 2px solid #ACAD94;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.flag {
+    width: 35px;
+    height: 25px;
+}
+
+select {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    color: #384D48;
+}
+
+/* Swap */
+
+.swap {
+    margin-top: 3vmin;
+    background-color: #D8D4D5;
+    color: #384D48;
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Result */
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #D8D4D5;
+}
+
+.container3 label {
+    background-color: #D8D4D5;
+    color: #384D48;
+    font-weight: bold;
+}
+
+.result {
+    background-color: #D8D4D5;
+    color: #384D48;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Button */
+
+.container4 {
+    background-color: #D8D4D5;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #384D48;
+    color: #E2E2E2;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #2d3e39;
+}

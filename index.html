@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRENCY CONVERTER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="title">
+        CURRENCY CONVERTER
+    </div>
+
+    <div class="container">
+
+        <!-- Amount -->
+        <div class="container1">
+            <label for="amount" >Amount</label>
+            <input type="number" id="amount" class="input" placeholder="Enter the amount" min="0">
+        </div>
+
+        <!-- Currency Selection -->
+        <div class="container2">
+
+            <!-- From Currency -->
+            <div class="container2-1">
+                <label for="from">From</label>
+
+                <div class="currency">
+                    <img src="" alt="Flag" class="flag" id="fromFlag">
+
+                    <select id="from">
+
+                    </select>
+                </div>
+            </div>
+
+            <!-- Swap -->
+            <div class="swap">
+                &#8646;
+            </div>
+
+            <!-- To Currency -->
+            <div class="container2-2">
+                <label for="to">To</label>
+
+                <div class="currency">
+                    <img src="" alt="Flag" class="flag" id="toFlag">
+
+                    <select id="to">
+
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Result -->
+        <div class="container3">
+            <label for="result">Result</label>
+            <input type="text" id="result" class="output" placeholder="Converted Amount" readonly>
+        </div>
+
+        <!-- Convert Button -->
+        <div class="container4">
+            <button id="convertBtn">Convert Currency</button>
+        </div>
+
+    </div>
+
+    <script src="code.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
