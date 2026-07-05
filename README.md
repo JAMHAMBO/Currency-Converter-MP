@@ -20,13 +20,12 @@ A simple Currency Converter built using HTML, CSS, and JavaScript.
 
 ## Live Demo
 
-https://jamhambo.github.io/Currency-Converter/
-
+https://jamhambo.github.io/Currency-Converter-MP/
 ## How to Run
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/JAMHAMBO/Currency-Converter.git
+   git clone https://github.com/JAMHAMBO/Currency-Converter-MP.git
    ```
 
 2. Open `index.html` in your browser.
